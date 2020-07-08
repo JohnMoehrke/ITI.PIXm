@@ -198,7 +198,7 @@ identifier is not recognized in an issue having:
 | Attribute   | Value                                           |
 | ----------- | ----------------------------------------------- |
 | severity    | error                                           |
-| code        | http://hl7.org/fhir/issue-type\#not-found       |
+| code        | not-found       |
 | diagnostics | “sourceIdentifier Patient Identifier not found” |
 {: .grid }
 
@@ -217,7 +217,7 @@ Assigning Authority domain is not recognized in an issue having:
 | Attribute   | Value                                           |
 | ----------- | ------------------------------------------------ |
 | severity    | error                                            |
-| code        | http://hl7.org/fhir/issue-type\#code-invalid     |
+| code        | code-invalid     |
 | diagnostics | “sourceIdentifier Assigning Authority not found” |
 {: .grid }
 
@@ -236,7 +236,7 @@ Identity Domain is not recognized in an issue having:
 | Attribute   | Value                                        |
 | ----------- | -------------------------------------------- |
 | severity    | error                                        |
-| code        | http://hl7.org/fhir/issue-type\#code-invalid |
+| code        | code-invalid |
 | diagnostics | “targetSystem not found”                     |
 {: .grid }
 
