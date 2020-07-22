@@ -3,7 +3,7 @@
 "id":"1234567890",
 "meta":{
 	"profile":[
-		"http://ihe.net/fhir/ihe.pixm.fhir/OperationDefinition/IHE.PIXm.pix" 
+		"http://profiles.ihe.net/fhir/ihe.pixm.fhir/OperationDefinition/IHE_PIXm_pix" 
 		]
 	},     
 "parameter": [ 

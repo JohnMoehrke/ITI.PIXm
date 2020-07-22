@@ -1,7 +1,8 @@
 <Parameters xmlns="http://hl7.org/fhir">
 	<id value="3.38.4.2.2.1-2" />
+	<name value="pixm-response-83-example" />
     <meta>
-        <profile value="http://ihe.net/fhir/ihe.pixm.fhir/OperationDefinition/IHE.PIXm.pix" />
+        <profile value="http://profiles.ihe.net/fhir/ihe.pixm.fhir/OperationDefinition/IHE_PIXm_pix" />
     </meta>	
 	<parameter>
 		<name value="targetIdentifier"/>

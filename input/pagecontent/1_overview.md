@@ -6,9 +6,9 @@ This is an experimental project to show how to publish an IHE Profile using FHIR
 
 * Actors
 
-  - [Patient Identifier Cross-Reference Consumer](2_actors_and_transactions.html#consumer)
+  - [Patient Identifier Cross-Reference Consumer](2_actors_and_transactions.html)
 
-  - [Patient Identifier Cross-Reference Manager](2_actors_and_transactions.html#manager)
+  - [Patient Identifier Cross-Reference Manager](2_actors_and_transactions.html)
 
 * Transactions
 
