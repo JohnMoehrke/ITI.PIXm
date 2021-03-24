@@ -32,17 +32,17 @@
 
 		<resource>
 			<reference>
-				<reference value="http://ihe.net/fhir/OperationDefinition/IHE_PIXm_pix" />
+				<reference value="http://profiles.ihe.net/fhir/OperationDefinition/IHE_PIXm_pix" />
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="http://ihe.net/fhir/CapabilityStatement/IHE_PIXm_Manager" />
+				<reference value="http://profiles.ihe.net/fhir/CapabilityStatement/IHE_PIXm_Manager" />
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="http://ihe.net/fhir/CapabilityStatement/IHE_PIXm_Consumer" />
+				<reference value="http://profiles.ihe.net/fhir/CapabilityStatement/IHE_PIXm_Consumer" />
 			</reference>
 		</resource>
 	</manifest>
@@ -85,7 +85,31 @@
 				<reference value="Parameters/46138430-266b-423b-b64b-afdea6deed2b"/>
 			</reference>
 			<name value="pixm-response-example"/>
-			<description value="An example response of a use of the PIXm operation "/>
+			<description value="An example response of a use of the PIXm operation"/>
+			<exampleBoolean value="true"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/patient-example"/>
+			</reference>
+			<name value="Patient/patient-example"/>
+			<description value="An example Patient to make examples complete"/>
+			<exampleBoolean value="true"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/patient-example2"/>
+			</reference>
+			<name value="Patient/patient-example2"/>
+			<description value="An example Patient to make examples complete"/>
+			<exampleBoolean value="true"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/patient-example-dheeraj"/>
+			</reference>
+			<name value="Patient/patient-example-dheeraj"/>
+			<description value="An example Patient to make dheeraj-example complete"/>
 			<exampleBoolean value="true"/>
 		</resource>
    
@@ -149,10 +173,5 @@
 			<code value="autoload-resources" />
 			<value value="true" />
 		</parameter>
-		<parameter>
-			<code value="path-suppressed-warnings" />
-			<value value="ignoreWarnings.md" />
-		</parameter>
-
   </definition>
 </ImplementationGuide>

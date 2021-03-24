@@ -1,11 +1,6 @@
 {        
 "resourceType": "Parameters",   
 "id":"1234567890",
-"meta":{
-	"profile":[
-		"http://profiles.ihe.net/fhir/ihe.pixm.fhir/OperationDefinition/IHE_PIXm_pix" 
-		]
-	},     
 "parameter": [ 
 	{                
 	"name": "targetIdentifier",                
@@ -26,7 +21,7 @@
 	{   
 	"name": "targetId",                
 	"valueReference": {
-		"reference": "http://xyz-server/xxx/Patient/7536642"
+		"reference": "Patient/patient-example-dheeraj"
 		}	
 	}        
 	]    

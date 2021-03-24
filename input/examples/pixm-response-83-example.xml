@@ -1,9 +1,10 @@
 <Parameters xmlns="http://hl7.org/fhir">
 	<id value="3.38.4.2.2.1-2" />
-	<name value="pixm-response-83-example" />
+    <!-- could later have a StructureDefinition profile that is equal to the OperationDefinition that could be identified here for validation
     <meta>
         <profile value="http://profiles.ihe.net/fhir/ihe.pixm.fhir/OperationDefinition/IHE_PIXm_pix" />
     </meta>	
+	-->
 	<parameter>
 		<name value="targetIdentifier"/>
 		<valueIdentifier>
@@ -23,7 +24,7 @@
 	<parameter>
 		<name value="targetId"/>
 		<valueReference>
-			<reference value="http://xyz-server/xxx/Patient/7536642" />
+			<reference value="Patient/patient-example" />
 		</valueReference>	
 	</parameter>
 	<parameter>
@@ -40,7 +41,7 @@
 	<parameter>
 		<name value="targetId"/>
 		<valueReference>
-			<reference value="http://pas-server/xxx/Patient/443556" />
+			<reference value="Patient/patient-example2" />
 		</valueReference>	
 	</parameter>
 </Parameters>

@@ -1,13 +1,14 @@
 <Parameters xmlns="http://hl7.org/fhir">
     <id value="46138430-266b-423b-b64b-afdea6deed2b" /> 
-	<name value="pixm-response-example" />
-    <meta>
+    <!-- could later have a StructureDefinition profile that is equal to the OperationDefinition that could be identified here for validation
+	<meta>
         <profile value="http://profiles.ihe.net/fhir/ihe.pixm.fhir/OperationDefinition/IHE_PIXm_pix" />
     </meta>
+	-->
     <parameter>
         <name value="targetId" />
         <valueReference>
-            <reference value="https://example.com/PCR/1.0/FHIR/Patient/106616" />
+            <reference value="Patient/patient-example" />
         </valueReference>
     </parameter>
     <parameter>
